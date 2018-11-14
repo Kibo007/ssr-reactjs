@@ -1,11 +1,12 @@
-# Razzle and Redux Example
+# SSR React
 
 ## How to use
-Download the example [or clone the whole project](https://github.com/jaredpalmer/razzle.git):
+
+Download the example [or clone the whole project](https://github.com/nenjotsu/ssr-reactjs):
 
 ```bash
-curl https://codeload.github.com/jaredpalmer/razzle/tar.gz/master | tar -xz --strip=2 razzle-master/examples/with-redux
-cd with-redux
+git clone https://github.com/nenjotsu/ssr-reactjs.git
+cd ssr-react
 ```
 
 Install it and run:
@@ -15,5 +16,6 @@ yarn install
 yarn start
 ```
 
-## Idea behind the example
-Almost 100% of the code is taken from the [official Redux universal example](https://github.com/reactjs/redux/tree/master/examples/universal).
+## Thanks to
+
+[razzle](https://github.com/jaredpalmer/razzle/tree/master/examples/with-redux)
