@@ -1,6 +1,7 @@
 import { createStore, applyMiddleware } from 'redux';
 import thunk from 'redux-thunk';
 import rootReducer from '../reducers';
+import { saveStateToSessionStorage } from '../helpers';
 
 const configureStore = preloadedState => {
   const store = createStore(
@@ -16,6 +17,10 @@ const configureStore = preloadedState => {
       store.replaceReducer(nextRootReducer);
     });
   }
+
+  store.subscribe(() => {
+    saveStateToSessionStorage(store.getState());
+  });
 
   return store;
 };

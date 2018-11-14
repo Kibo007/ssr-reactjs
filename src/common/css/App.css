@@ -3,3 +3,7 @@
 .App {
   text-align: center;
 }
+
+.ant-layout {
+  min-height: 1000px;
+}
