@@ -20,9 +20,17 @@
 
 import React from 'react';
 import { Router, Route, browserHistory } from 'react-router';
+import Loadable from 'react-loadable';
 
-import Home from '../containers/App';
-import About from '../containers/About';
+const Home = Loadable({
+  loader: () => import('../containers/App'),
+  loading: () => null
+});
+
+const About = Loadable({
+  loader: () => import('../containers/About'),
+  loading: () => null
+});
 
 const Routes = props => {
   return (

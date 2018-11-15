@@ -1,8 +1,13 @@
-import compression from 'compression';
-import { match, RouterContext } from 'react-router';
-// import App from '../common/containers/App';
-import { Provider } from 'react-redux';
 import React from 'react';
+import { Provider } from 'react-redux';
+import { match, RouterContext } from 'react-router';
+import { Capture } from 'react-loadable';
+import { getBundles } from 'react-loadable/webpack';
+
+import { StaticRouter } from 'react-router-dom';
+import compression from 'compression';
+// import App from '../common/containers/App';
+import stats from '../../build/react-loadable.json';
 // import LocaleProvider from 'antd/lib/locale-provider';
 // import enUS from 'antd/lib/locale-provider/en_US';
 import configureStore from '../common/store/configureStore';
@@ -41,15 +46,20 @@ server
           // your "not found" component or route respectively, and send a 404 as
           // below, if you're using a catch-all route.
           const context = {};
+          const modules = [];
 
           const preloadedState = loadStateFromSessionStorage();
 
           // Create a new Redux store instance
           const store = configureStore(preloadedState);
           const markup = renderToString(
-            <Provider store={store}>
-              <RouterContext {...renderProps} />
-            </Provider>
+            <Capture report={moduleName => modules.push(moduleName)}>
+              <StaticRouter context={context} location={req.url}>
+                <Provider store={store}>
+                  <RouterContext {...renderProps} />
+                </Provider>
+              </StaticRouter>
+            </Capture>
           );
 
           const finalState = store.getState();
@@ -57,40 +67,59 @@ server
           if (context.url) {
             res.redirect(context.url);
           } else {
-            // Render the component to a string
-
-            // Grab the initial state from our Redux store
-
-            // store.subscribe(() => {
-            //   debugger;
-            //   saveStateToSessionStorage(finalState);
-            // });
+            const bundles = getBundles(stats, modules);
+            const chunks = bundles.filter(bundle =>
+              bundle.file.endsWith('.js')
+            );
+            const styles = bundles.filter(bundle =>
+              bundle.file.endsWith('.css')
+            );
 
             res.send(`<!doctype html>
-              <html lang="">
+              <html lang="en">
               <head>
                   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                   <meta charSet='utf-8' />
                   <title>Razzle Redux Example</title>
+                  <meta name="description" content="A page's description, 
+  usually one or two sentences."/>
                   <meta name="viewport" content="width=device-width, initial-scale=1">
-                  ${
-                    assets.client.css
-                      ? `<link rel="stylesheet" href="${assets.client.css}">`
-                      : ''
-                  }
-                    ${
-                      process.env.NODE_ENV === 'production'
-                        ? `<script src="${assets.client.js}" defer></script>`
-                        : `<script src="${
-                            assets.client.js
-                          }" defer crossorigin></script>`
-                    }
+                   ${
+                     assets.client.css
+                       ? `<link rel="preload" href="${
+                           assets.client.css
+                         }" as="style">`
+                       : ''
+                   }
+                  ${styles
+                    .map(style => {
+                      return `<link rel="preload" href="${
+                        style.file
+                      }" as="style">`;
+                    })
+                    .join('\n')}
               </head>
               <body>
-                  <div id="root">${markup}</div>
-                  <script>
-                    window.__PRELOADED_STATE__ = ${serialize(finalState)}
-                  </script>
+                <div id="root">${markup}</div>
+                <script>
+                  window.__PRELOADED_STATE__ = ${serialize(finalState)}
+                </script>
+                ${
+                  process.env.NODE_ENV === 'production'
+                    ? `<script src="${assets.client.js}"></script>`
+                    : `<script src="${assets.client.js}" crossorigin></script>`
+                }
+                ${chunks
+                  .map(chunk =>
+                    process.env.NODE_ENV === 'production'
+                      ? `<script src="/${chunk.file}"></script>`
+                      : `<script src="http://${process.env.HOST}:${parseInt(
+                          process.env.PORT,
+                          10
+                        ) + 1}/${chunk.file}"></script>`
+                  )
+                  .join('\n')}
+                <script>window.main();</script>
               </body>
           </html>`);
           }

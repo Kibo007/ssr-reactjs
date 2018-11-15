@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Loadable from 'react-loadable';
 import { Link } from 'react-router';
 import { Layout } from 'antd';
 import Button from 'antd/lib/button';
@@ -10,6 +11,11 @@ const propTypes = {
   reduxAction: PropTypes.object.isRequired,
   intl: PropTypes.object.isRequired
 };
+
+const Welcome = Loadable({
+  loader: () => import('./Welcome'),
+  loading: () => null
+});
 
 class Home extends Component {
   switchLocale = locale => e => {
@@ -26,6 +32,7 @@ class Home extends Component {
           <Layout>
             <Content>
               <Link to="about">About</Link>
+              <Welcome />
               <Button onClick={this.switchLocale('en')}>en</Button>
               <Button onClick={this.switchLocale('jp')}>jp</Button>
               {this.props.intl.messages.greeting}

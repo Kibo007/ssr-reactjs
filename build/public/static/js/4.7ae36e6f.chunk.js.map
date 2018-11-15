@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/4.7ae36e6f.chunk.js","sources":["webpack:///./src/common/components/Home/Welcome.js"],"sourcesContent":["import React from 'react';\n\nconst Welcome = () => <h2>Welcome to Razzle</h2>;\n\nexport default Welcome;\n"],"mappings":"AAAA","sourceRoot":""}
