@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[1],{ta2S:function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),o=t.n(a);n.default=function(){return o.a.createElement("h2",null,"Welcome to Razzle")}}}]);
-//# sourceMappingURL=1.75627360.chunk.js.map
