@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Loadable from 'react-loadable';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 import { Layout } from 'antd';
 import Button from 'antd/lib/button';
 
@@ -27,20 +27,11 @@ class Home extends Component {
     console.log(this.props.intl);
     return (
       <div>
-        <Layout>
-          <Header>Header</Header>
-          <Layout>
-            <Content>
-              <Link to="about">About</Link>
-              <Welcome />
-              <Button onClick={this.switchLocale('en')}>en</Button>
-              <Button onClick={this.switchLocale('jp')}>jp</Button>
-              {this.props.intl.messages.greeting}
-            </Content>
-            {/* <Content>yellow</Content> */}
-          </Layout>
-          <Footer>Footer</Footer>
-        </Layout>
+        <Link to="about">About</Link>
+        <Welcome />
+        <Button onClick={this.switchLocale('en')}>en</Button>
+        <Button onClick={this.switchLocale('jp')}>jp</Button>
+        {this.props.intl.messages.greeting}
       </div>
     );
   }

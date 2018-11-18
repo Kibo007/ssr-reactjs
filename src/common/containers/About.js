@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router';
+import { Link } from 'react-router-dom';
 // import App from './App';
 // import './Home.css';
 
@@ -11,7 +11,10 @@ class About extends React.Component {
           <h2>About page</h2>
         </div>
         <p>
-          <Link to="home">Home</Link>
+          <Link to="/">Home</Link>
+        </p>
+        <p>
+          <Link to="/ewan">Ewan</Link>
         </p>
       </div>
     );

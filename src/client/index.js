@@ -5,7 +5,6 @@ import configureStore from '../common/store/configureStore';
 
 import Loadable from 'react-loadable';
 import BrowserRouter from 'react-router-dom/BrowserRouter';
-// import App from '../common/containers/App';
 import Routes from '../common/routes';
 
 const store = configureStore(window.__PRELOADED_STATE__);
@@ -21,13 +20,6 @@ if (module.hot) {
     render(NewApp);
   });
 }
-
-// hydrate(
-//   <Provider store={store}>
-//     <Routes />
-//   </Provider>,
-//   root
-// );
 
 function render(Root) {
   Loadable.preloadReady().then(() => {

@@ -21,7 +21,7 @@ import {
   loadStateFromSessionStorage
 } from '../common/helpers';
 
-import getRoutes from '../common/routes';
+import Routes from '../common/routes';
 
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST);
 const server = express();
@@ -32,7 +32,7 @@ server
   .use(express.static(process.env.RAZZLE_PUBLIC_DIR))
   .get('/*', (req, res) => {
     match(
-      { routes: getRoutes(), location: req.url },
+      { routes: Routes(), location: req.url },
       (error, redirectLocation, renderProps) => {
         if (error) {
           res.status(500).send(error.message);
@@ -42,9 +42,6 @@ server
             redirectLocation.pathname + redirectLocation.search
           );
         } else if (renderProps) {
-          // You can also check renderProps.components or renderProps.routes for
-          // your "not found" component or route respectively, and send a 404 as
-          // below, if you're using a catch-all route.
           const context = {};
           const modules = [];
 
@@ -53,13 +50,13 @@ server
           // Create a new Redux store instance
           const store = configureStore(preloadedState);
           const markup = renderToString(
-            <Capture report={moduleName => modules.push(moduleName)}>
-              <StaticRouter context={context} location={req.url}>
-                <Provider store={store}>
-                  <RouterContext {...renderProps} />
-                </Provider>
-              </StaticRouter>
-            </Capture>
+            <Provider store={store}>
+              <Capture report={moduleName => modules.push(moduleName)}>
+                <StaticRouter context={context} location={req.url}>
+                  <Routes />
+                </StaticRouter>
+              </Capture>
+            </Provider>
           );
 
           const finalState = store.getState();
@@ -86,16 +83,16 @@ server
                   <meta name="viewport" content="width=device-width, initial-scale=1">
                    ${
                      assets.client.css
-                       ? `<link rel="preload" href="${
+                       ? `<link rel="stylesheet" type="text/css" href="${
                            assets.client.css
-                         }" as="style">`
+                         }">`
                        : ''
                    }
                   ${styles
                     .map(style => {
-                      return `<link rel="preload" href="${
+                      return `<link rel="stylesheet" type="text/css"s href="${
                         style.file
-                      }" as="style">`;
+                      }">`;
                     })
                     .join('\n')}
               </head>
@@ -124,16 +121,10 @@ server
           </html>`);
           }
         } else {
-          res.status(404).send('Not found');
+          res.redirect('/404');
         }
       }
     );
-    // fetchCounter(apiResult => {
-    //   // Read the counter from the request, if provided
-    //   const params = qs.parse(req.query);
-    //   const counter = parseInt(params.counter, 10) || apiResult || 0;
-
-    // Compile an initial state
   });
 
 export default server;
