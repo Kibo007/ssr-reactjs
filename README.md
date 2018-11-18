@@ -1,21 +1,50 @@
-# SSR React
+# SSR React (WIP)
 
-## How to use
+Reactjs with Server Side Rendering Typescript Boilerplate
 
-Download the example [or clone the whole project](https://github.com/nenjotsu/ssr-reactjs):
+# What's inside?
+
+- [x] ReactJS
+- [x] Server Side Rendering (using Razzle)
+- [x] Redux
+- [ ] Redux Observables (rxjs)
+- [ ] React Router
+- [ ] WithRouter
+- [ ] Socket
+- [ ] Auth0
+- [ ] GraphQL
+- [ ] AntDesign
+- [ ] Formik
+- [ ] [Advanced Redux Pattern](https://github.com/nenjotsu/advanced-redux-pattern)
+- [ ] Cypress, Mocha, Chai
+
+# Usage
 
 ```bash
 git clone https://github.com/nenjotsu/ssr-reactjs.git
-cd ssr-react
+cd ssr-reactjs
 ```
 
-Install it and run:
+## Installation & Getting Started:
 
 ```bash
 yarn install
 yarn start
 ```
 
-## Thanks to
+# Thanks to
 
-[razzle](https://github.com/jaredpalmer/razzle/tree/master/examples/with-redux)
+- [razzle](https://github.com/jaredpalmer/razzle.git)
+
+# Contributing
+
+Do you want to contribute? Please read the guidelines [here](/docs/contributing.md) or message me @nenjotsu
+
+# Code of Conduct
+
+Please read it [here](/docs/CODE_OF_CONDUCT.md)
+
+# License
+
+MIT
+
