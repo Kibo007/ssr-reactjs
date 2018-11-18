@@ -13,16 +13,16 @@
       "publicPath": "http://localhost:3001/static/js/0.chunk.js.map"
     }
   ],
-  "./_to-absolute-index": [
+  "./bindActionCreators": [
     {
-      "id": "./node_modules/core-js/library/modules/_to-absolute-index.js",
-      "name": "./node_modules/core-js/library/modules/_to-absolute-index.js",
+      "id": "./node_modules/redux/es/bindActionCreators.js",
+      "name": "./node_modules/redux/es/bindActionCreators.js",
       "file": "static/js/bundle.js",
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./node_modules/core-js/library/modules/_to-absolute-index.js",
-      "name": "./node_modules/core-js/library/modules/_to-absolute-index.js",
+      "id": "./node_modules/redux/es/bindActionCreators.js",
+      "name": "./node_modules/redux/es/bindActionCreators.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -55,7 +55,7 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
   ],
-  "./core.js": [
+  "./core": [
     {
       "id": "./node_modules/promise/lib/core.js",
       "name": "./node_modules/promise/lib/core.js",
@@ -83,7 +83,7 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
   ],
-  "./../webpack/buildin/global.js": [
+  "./../../webpack/buildin/global.js": [
     {
       "id": "./node_modules/webpack/buildin/global.js",
       "name": "./node_modules/webpack/buildin/global.js",
@@ -489,7 +489,7 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
   ],
-  "./transport/sender/xhr-cors": [
+  "./sender/xhr-cors": [
     {
       "id": "./node_modules/sockjs-client/lib/transport/sender/xhr-cors.js",
       "name": "./node_modules/sockjs-client/lib/transport/sender/xhr-cors.js",
@@ -517,7 +517,7 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
   ],
-  "./transport/sender/xhr-local": [
+  "./sender/xhr-local": [
     {
       "id": "./node_modules/sockjs-client/lib/transport/sender/xhr-local.js",
       "name": "./node_modules/sockjs-client/lib/transport/sender/xhr-local.js",
@@ -559,7 +559,7 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
   ],
-  "./transport/sender/xdr": [
+  "./sender/xdr": [
     {
       "id": "./node_modules/sockjs-client/lib/transport/sender/xdr.js",
       "name": "./node_modules/sockjs-client/lib/transport/sender/xdr.js",
@@ -3111,16 +3111,16 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
   ],
-  "./bindActionCreators": [
+  "/Users/nenjotsu/Documents/github/ssr-reactjs/node_modules/razzle/config/polyfills.js": [
     {
-      "id": "./node_modules/redux/es/bindActionCreators.js",
-      "name": "./node_modules/redux/es/bindActionCreators.js",
+      "id": "./node_modules/razzle/config/polyfills.js",
+      "name": "./node_modules/razzle/config/polyfills.js",
       "file": "static/js/bundle.js",
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./node_modules/redux/es/bindActionCreators.js",
-      "name": "./node_modules/redux/es/bindActionCreators.js",
+      "id": "./node_modules/razzle/config/polyfills.js",
+      "name": "./node_modules/razzle/config/polyfills.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -3531,16 +3531,16 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
   ],
-  "/Users/nenjotsu/Documents/github/ssr-reactjs/node_modules/razzle/config/polyfills.js": [
+  "./_to-absolute-index": [
     {
-      "id": "./node_modules/razzle/config/polyfills.js",
-      "name": "./node_modules/razzle/config/polyfills.js",
+      "id": "./node_modules/core-js/library/modules/_to-absolute-index.js",
+      "name": "./node_modules/core-js/library/modules/_to-absolute-index.js",
       "file": "static/js/bundle.js",
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./node_modules/razzle/config/polyfills.js",
-      "name": "./node_modules/razzle/config/polyfills.js",
+      "id": "./node_modules/core-js/library/modules/_to-absolute-index.js",
+      "name": "./node_modules/core-js/library/modules/_to-absolute-index.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -4333,32 +4333,8 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./node_modules/react-router/node_modules/history/lib/LocationUtils.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/LocationUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/history/LocationUtils.js",
-      "name": "./node_modules/history/LocationUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
       "id": "./node_modules/history/es/LocationUtils.js",
       "name": "./node_modules/history/es/LocationUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/LocationUtils.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/LocationUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/history/LocationUtils.js",
-      "name": "./node_modules/history/LocationUtils.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -4399,32 +4375,8 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./node_modules/react-router/node_modules/history/lib/PathUtils.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/PathUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/history/PathUtils.js",
-      "name": "./node_modules/history/PathUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
       "id": "./node_modules/history/es/PathUtils.js",
       "name": "./node_modules/history/es/PathUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/PathUtils.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/PathUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/history/PathUtils.js",
-      "name": "./node_modules/history/PathUtils.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -4437,32 +4389,8 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./node_modules/react-router/es/createTransitionManager.js",
-      "name": "./node_modules/react-router/es/createTransitionManager.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/history/createTransitionManager.js",
-      "name": "./node_modules/history/createTransitionManager.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
       "id": "./node_modules/history/es/createTransitionManager.js",
       "name": "./node_modules/history/es/createTransitionManager.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/react-router/es/createTransitionManager.js",
-      "name": "./node_modules/react-router/es/createTransitionManager.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/history/createTransitionManager.js",
-      "name": "./node_modules/history/createTransitionManager.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -4475,32 +4403,8 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./node_modules/react-router/node_modules/history/lib/DOMUtils.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/DOMUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/history/DOMUtils.js",
-      "name": "./node_modules/history/DOMUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
       "id": "./node_modules/history/es/DOMUtils.js",
       "name": "./node_modules/history/es/DOMUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/DOMUtils.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/DOMUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/history/DOMUtils.js",
-      "name": "./node_modules/history/DOMUtils.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -4527,20 +4431,8 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./node_modules/react-router/es/createMemoryHistory.js",
-      "name": "./node_modules/react-router/es/createMemoryHistory.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
       "id": "./node_modules/history/es/createMemoryHistory.js",
       "name": "./node_modules/history/es/createMemoryHistory.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/react-router/es/createMemoryHistory.js",
-      "name": "./node_modules/react-router/es/createMemoryHistory.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -4559,12 +4451,6 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./node_modules/react-router/es/Router.js",
-      "name": "./node_modules/react-router/es/Router.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
       "id": "./node_modules/react-router-dom/Router.js",
       "name": "./node_modules/react-router-dom/Router.js",
       "file": "static/js/bundle.js.map",
@@ -4573,12 +4459,6 @@
     {
       "id": "./node_modules/react-router-dom/es/Router.js",
       "name": "./node_modules/react-router-dom/es/Router.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/react-router/es/Router.js",
-      "name": "./node_modules/react-router/es/Router.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -4675,20 +4555,8 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./node_modules/react-router/es/Link.js",
-      "name": "./node_modules/react-router/es/Link.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
       "id": "./node_modules/react-router-dom/es/Link.js",
       "name": "./node_modules/react-router-dom/es/Link.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/react-router/es/Link.js",
-      "name": "./node_modules/react-router/es/Link.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -4743,20 +4611,8 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./node_modules/react-router/es/Route.js",
-      "name": "./node_modules/react-router/es/Route.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
       "id": "./node_modules/react-router-dom/es/Route.js",
       "name": "./node_modules/react-router-dom/es/Route.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/react-router/es/Route.js",
-      "name": "./node_modules/react-router/es/Route.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -4853,20 +4709,8 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./node_modules/react-router/es/Redirect.js",
-      "name": "./node_modules/react-router/es/Redirect.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
       "id": "./node_modules/react-router-dom/es/Redirect.js",
       "name": "./node_modules/react-router-dom/es/Redirect.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/react-router/es/Redirect.js",
-      "name": "./node_modules/react-router/es/Redirect.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -4991,20 +4835,8 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./node_modules/react-router/es/withRouter.js",
-      "name": "./node_modules/react-router/es/withRouter.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
       "id": "./node_modules/react-router-dom/es/withRouter.js",
       "name": "./node_modules/react-router-dom/es/withRouter.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/react-router/es/withRouter.js",
-      "name": "./node_modules/react-router/es/withRouter.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -5019,690 +4851,6 @@
     {
       "id": "./node_modules/react-router-dom/node_modules/react-router/es/withRouter.js",
       "name": "./node_modules/react-router-dom/node_modules/react-router/es/withRouter.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "react-router": [
-    {
-      "id": "./node_modules/react-router/es/index.js",
-      "name": "./node_modules/react-router/es/index.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/index.js",
-      "name": "./node_modules/react-router/es/index.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "create-react-class": [
-    {
-      "id": "./node_modules/create-react-class/index.js",
-      "name": "./node_modules/create-react-class/index.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/create-react-class/index.js",
-      "name": "./node_modules/create-react-class/index.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./factory": [
-    {
-      "id": "./node_modules/create-react-class/factory.js",
-      "name": "./node_modules/create-react-class/factory.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/create-react-class/factory.js",
-      "name": "./node_modules/create-react-class/factory.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "fbjs/lib/emptyObject": [
-    {
-      "id": "./node_modules/fbjs/lib/emptyObject.js",
-      "name": "./node_modules/fbjs/lib/emptyObject.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/emptyObject.js",
-      "name": "./node_modules/fbjs/lib/emptyObject.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "fbjs/lib/invariant": [
-    {
-      "id": "./node_modules/fbjs/lib/invariant.js",
-      "name": "./node_modules/fbjs/lib/invariant.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/invariant.js",
-      "name": "./node_modules/fbjs/lib/invariant.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "fbjs/lib/warning": [
-    {
-      "id": "./node_modules/fbjs/lib/warning.js",
-      "name": "./node_modules/fbjs/lib/warning.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/warning.js",
-      "name": "./node_modules/fbjs/lib/warning.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./emptyFunction": [
-    {
-      "id": "./node_modules/fbjs/lib/emptyFunction.js",
-      "name": "./node_modules/fbjs/lib/emptyFunction.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/fbjs/lib/emptyFunction.js",
-      "name": "./node_modules/fbjs/lib/emptyFunction.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./routerWarning": [
-    {
-      "id": "./node_modules/react-router/es/routerWarning.js",
-      "name": "./node_modules/react-router/es/routerWarning.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/routerWarning.js",
-      "name": "./node_modules/react-router/es/routerWarning.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./computeChangedRoutes": [
-    {
-      "id": "./node_modules/react-router/es/computeChangedRoutes.js",
-      "name": "./node_modules/react-router/es/computeChangedRoutes.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/computeChangedRoutes.js",
-      "name": "./node_modules/react-router/es/computeChangedRoutes.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./PatternUtils": [
-    {
-      "id": "./node_modules/react-router/es/PatternUtils.js",
-      "name": "./node_modules/react-router/es/PatternUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/PatternUtils.js",
-      "name": "./node_modules/react-router/es/PatternUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./TransitionUtils": [
-    {
-      "id": "./node_modules/react-router/es/TransitionUtils.js",
-      "name": "./node_modules/react-router/es/TransitionUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/TransitionUtils.js",
-      "name": "./node_modules/react-router/es/TransitionUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./AsyncUtils": [
-    {
-      "id": "./node_modules/react-router/es/AsyncUtils.js",
-      "name": "./node_modules/react-router/es/AsyncUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/AsyncUtils.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/AsyncUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/AsyncUtils.js",
-      "name": "./node_modules/react-router/es/AsyncUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/AsyncUtils.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/AsyncUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./isActive": [
-    {
-      "id": "./node_modules/react-router/es/isActive.js",
-      "name": "./node_modules/react-router/es/isActive.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/isActive.js",
-      "name": "./node_modules/react-router/es/isActive.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./getComponents": [
-    {
-      "id": "./node_modules/react-router/es/getComponents.js",
-      "name": "./node_modules/react-router/es/getComponents.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/getComponents.js",
-      "name": "./node_modules/react-router/es/getComponents.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./PromiseUtils": [
-    {
-      "id": "./node_modules/react-router/es/PromiseUtils.js",
-      "name": "./node_modules/react-router/es/PromiseUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/PromiseUtils.js",
-      "name": "./node_modules/react-router/es/PromiseUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./matchRoutes": [
-    {
-      "id": "./node_modules/react-router/es/matchRoutes.js",
-      "name": "./node_modules/react-router/es/matchRoutes.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/matchRoutes.js",
-      "name": "./node_modules/react-router/es/matchRoutes.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./RouteUtils": [
-    {
-      "id": "./node_modules/react-router/es/RouteUtils.js",
-      "name": "./node_modules/react-router/es/RouteUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/RouteUtils.js",
-      "name": "./node_modules/react-router/es/RouteUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./InternalPropTypes": [
-    {
-      "id": "./node_modules/react-router/es/InternalPropTypes.js",
-      "name": "./node_modules/react-router/es/InternalPropTypes.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/InternalPropTypes.js",
-      "name": "./node_modules/react-router/es/InternalPropTypes.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./RouterContext": [
-    {
-      "id": "./node_modules/react-router/es/RouterContext.js",
-      "name": "./node_modules/react-router/es/RouterContext.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/RouterContext.js",
-      "name": "./node_modules/react-router/es/RouterContext.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./getRouteParams": [
-    {
-      "id": "./node_modules/react-router/es/getRouteParams.js",
-      "name": "./node_modules/react-router/es/getRouteParams.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/getRouteParams.js",
-      "name": "./node_modules/react-router/es/getRouteParams.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./ContextUtils": [
-    {
-      "id": "./node_modules/react-router/es/ContextUtils.js",
-      "name": "./node_modules/react-router/es/ContextUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/ContextUtils.js",
-      "name": "./node_modules/react-router/es/ContextUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./RouterUtils": [
-    {
-      "id": "./node_modules/react-router/es/RouterUtils.js",
-      "name": "./node_modules/react-router/es/RouterUtils.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/RouterUtils.js",
-      "name": "./node_modules/react-router/es/RouterUtils.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./PropTypes": [
-    {
-      "id": "./node_modules/react-router/es/PropTypes.js",
-      "name": "./node_modules/react-router/es/PropTypes.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/PropTypes.js",
-      "name": "./node_modules/react-router/es/PropTypes.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./IndexLink": [
-    {
-      "id": "./node_modules/react-router/es/IndexLink.js",
-      "name": "./node_modules/react-router/es/IndexLink.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/IndexLink.js",
-      "name": "./node_modules/react-router/es/IndexLink.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./IndexRedirect": [
-    {
-      "id": "./node_modules/react-router/es/IndexRedirect.js",
-      "name": "./node_modules/react-router/es/IndexRedirect.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/IndexRedirect.js",
-      "name": "./node_modules/react-router/es/IndexRedirect.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./IndexRoute": [
-    {
-      "id": "./node_modules/react-router/es/IndexRoute.js",
-      "name": "./node_modules/react-router/es/IndexRoute.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/IndexRoute.js",
-      "name": "./node_modules/react-router/es/IndexRoute.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./match": [
-    {
-      "id": "./node_modules/react-router/es/match.js",
-      "name": "./node_modules/react-router/es/match.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/match.js",
-      "name": "./node_modules/react-router/es/match.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "history/lib/Actions": [
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/Actions.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/Actions.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/Actions.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/Actions.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "history/lib/useQueries": [
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/useQueries.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/useQueries.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/useQueries.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/useQueries.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "query-string": [
-    {
-      "id": "./node_modules/query-string/index.js",
-      "name": "./node_modules/query-string/index.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/query-string/index.js",
-      "name": "./node_modules/query-string/index.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "strict-uri-encode": [
-    {
-      "id": "./node_modules/strict-uri-encode/index.js",
-      "name": "./node_modules/strict-uri-encode/index.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/strict-uri-encode/index.js",
-      "name": "./node_modules/strict-uri-encode/index.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./runTransitionHook": [
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/runTransitionHook.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/runTransitionHook.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/runTransitionHook.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/runTransitionHook.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "history/lib/useBasename": [
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/useBasename.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/useBasename.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/useBasename.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/useBasename.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "history/lib/createMemoryHistory": [
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/createMemoryHistory.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/createMemoryHistory.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/createMemoryHistory.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/createMemoryHistory.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./createHistory": [
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/createHistory.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/createHistory.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/createHistory.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/createHistory.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./useRouterHistory": [
-    {
-      "id": "./node_modules/react-router/es/useRouterHistory.js",
-      "name": "./node_modules/react-router/es/useRouterHistory.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/useRouterHistory.js",
-      "name": "./node_modules/react-router/es/useRouterHistory.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./applyRouterMiddleware": [
-    {
-      "id": "./node_modules/react-router/es/applyRouterMiddleware.js",
-      "name": "./node_modules/react-router/es/applyRouterMiddleware.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/applyRouterMiddleware.js",
-      "name": "./node_modules/react-router/es/applyRouterMiddleware.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./browserHistory": [
-    {
-      "id": "./node_modules/react-router/es/browserHistory.js",
-      "name": "./node_modules/react-router/es/browserHistory.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/browserHistory.js",
-      "name": "./node_modules/react-router/es/browserHistory.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "history/lib/createBrowserHistory": [
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/createBrowserHistory.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/createBrowserHistory.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/createBrowserHistory.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/createBrowserHistory.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./ExecutionEnvironment": [
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/ExecutionEnvironment.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/ExecutionEnvironment.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/ExecutionEnvironment.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/ExecutionEnvironment.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./BrowserProtocol": [
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/BrowserProtocol.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/BrowserProtocol.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/BrowserProtocol.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/BrowserProtocol.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./DOMStateStorage": [
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/DOMStateStorage.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/DOMStateStorage.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/DOMStateStorage.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/DOMStateStorage.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./RefreshProtocol": [
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/RefreshProtocol.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/RefreshProtocol.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/RefreshProtocol.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/RefreshProtocol.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./createRouterHistory": [
-    {
-      "id": "./node_modules/react-router/es/createRouterHistory.js",
-      "name": "./node_modules/react-router/es/createRouterHistory.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/createRouterHistory.js",
-      "name": "./node_modules/react-router/es/createRouterHistory.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./hashHistory": [
-    {
-      "id": "./node_modules/react-router/es/hashHistory.js",
-      "name": "./node_modules/react-router/es/hashHistory.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/es/hashHistory.js",
-      "name": "./node_modules/react-router/es/hashHistory.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "history/lib/createHashHistory": [
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/createHashHistory.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/createHashHistory.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/createHashHistory.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/createHashHistory.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "./HashProtocol": [
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/HashProtocol.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/HashProtocol.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/react-router/node_modules/history/lib/HashProtocol.js",
-      "name": "./node_modules/react-router/node_modules/history/lib/HashProtocol.js",
-      "file": "static/js/bundle.js.map",
-      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
-    }
-  ],
-  "history/createBrowserHistory": [
-    {
-      "id": "./node_modules/history/createBrowserHistory.js",
-      "name": "./node_modules/history/createBrowserHistory.js",
-      "file": "static/js/bundle.js",
-      "publicPath": "http://localhost:3001/static/js/bundle.js"
-    },
-    {
-      "id": "./node_modules/history/createBrowserHistory.js",
-      "name": "./node_modules/history/createBrowserHistory.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -5773,6 +4921,34 @@
     {
       "id": "./node_modules/style-loader/lib/urls.js",
       "name": "./node_modules/style-loader/lib/urls.js",
+      "file": "static/js/bundle.js.map",
+      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
+    }
+  ],
+  "../css/App.css": [
+    {
+      "id": "./src/common/css/App.css",
+      "name": "./src/common/css/App.css",
+      "file": "static/js/bundle.js",
+      "publicPath": "http://localhost:3001/static/js/bundle.js"
+    },
+    {
+      "id": "./src/common/css/App.css",
+      "name": "./src/common/css/App.css",
+      "file": "static/js/bundle.js.map",
+      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
+    }
+  ],
+  "!!../../../node_modules/css-loader/index.js??ref--9-1!../../../node_modules/postcss-loader/lib/index.js??postcss!./App.css": [
+    {
+      "id": "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/lib/index.js?!./src/common/css/App.css",
+      "name": "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/lib/index.js?!./src/common/css/App.css",
+      "file": "static/js/bundle.js",
+      "publicPath": "http://localhost:3001/static/js/bundle.js"
+    },
+    {
+      "id": "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/lib/index.js?!./src/common/css/App.css",
+      "name": "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/lib/index.js?!./src/common/css/App.css",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -6827,16 +6003,16 @@
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
   ],
-  "../containers/App": [
+  "../containers/Home": [
     {
-      "id": "./src/common/containers/App.js",
-      "name": "./src/common/containers/App.js",
+      "id": "./src/common/containers/Home.js",
+      "name": "./src/common/containers/Home.js",
       "file": "static/js/bundle.js",
       "publicPath": "http://localhost:3001/static/js/bundle.js"
     },
     {
-      "id": "./src/common/containers/App.js",
-      "name": "./src/common/containers/App.js",
+      "id": "./src/common/containers/Home.js",
+      "name": "./src/common/containers/Home.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
@@ -6991,6 +6167,20 @@
     {
       "id": "./src/common/containers/About.js",
       "name": "./src/common/containers/About.js",
+      "file": "static/js/bundle.js.map",
+      "publicPath": "http://localhost:3001/static/js/bundle.js.map"
+    }
+  ],
+  "../containers/Error404": [
+    {
+      "id": "./src/common/containers/Error404.js",
+      "name": "./src/common/containers/Error404.js",
+      "file": "static/js/bundle.js",
+      "publicPath": "http://localhost:3001/static/js/bundle.js"
+    },
+    {
+      "id": "./src/common/containers/Error404.js",
+      "name": "./src/common/containers/Error404.js",
       "file": "static/js/bundle.js.map",
       "publicPath": "http://localhost:3001/static/js/bundle.js.map"
     }
