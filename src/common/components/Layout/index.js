@@ -1,16 +1,18 @@
-import React, { Component } from 'react';
-import { Layout } from 'antd';
+import React from 'react';
+import Layout from 'antd/lib/layout';
+import MyHeader from './MyHeader';
+import MyFooter from './MyFooter';
 
-const { Header, Footer, Sider, Content } = Layout;
+const { Content } = Layout;
 
 const ContentLayout = props => (
   <div>
     <Layout>
-      <Header>Header</Header>
+      <MyHeader />
       <Layout>
         <Content>{props.children}</Content>
       </Layout>
-      <Footer>Footer</Footer>
+      <MyFooter />
     </Layout>
   </div>
 );

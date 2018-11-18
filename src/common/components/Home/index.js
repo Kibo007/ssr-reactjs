@@ -2,10 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Loadable from 'react-loadable';
 import { Link } from 'react-router-dom';
-import { Layout } from 'antd';
 import Button from 'antd/lib/button';
-
-const { Header, Footer, Content } = Layout;
 
 const propTypes = {
   reduxAction: PropTypes.object.isRequired,
