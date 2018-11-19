@@ -19,7 +19,8 @@ const configureStore = preloadedState => {
   }
 
   store.subscribe(() => {
-    saveStateToSessionStorage(store.getState());
+    const storeGetState = store.getState();
+    saveStateToSessionStorage(storeGetState);
   });
 
   return store;

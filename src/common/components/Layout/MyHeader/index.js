@@ -1,10 +1,11 @@
 import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
-import Home from '../../components/Home';
-import * as intl from '../../actions/intl';
+import View from './View';
+import * as intl from '../../../actions/intl';
 
 const mapStateToProps = state => ({
-  intl: state.intl.default
+  intl: state.intl.default,
+  menuList: state.intl.default.messages.menuList
 });
 
 function mapDispatchToProps(dispatch) {
@@ -14,4 +15,4 @@ function mapDispatchToProps(dispatch) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(Home);
+)(View);

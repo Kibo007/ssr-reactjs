@@ -43,7 +43,6 @@ server
           const modules = [];
 
           const preloadedState = loadStateFromSessionStorage();
-
           // Create a new Redux store instance
           const store = configureStore(preloadedState);
           const markup = renderToString(
@@ -56,7 +55,10 @@ server
             </Provider>
           );
 
-          const finalState = store.getState();
+          const finalState = {
+            ...store.getState(),
+            ...preloadedState
+          };
 
           if (context.url) {
             res.redirect(context.url);
@@ -74,9 +76,8 @@ server
               <head>
                   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                   <meta charSet='utf-8' />
-                  <title>Razzle Redux Example</title>
-                  <meta name="description" content="A page's description, 
-  usually one or two sentences."/>
+                  <title>Saijou International Training Center</title>
+                  <meta name="description" content="Japanese Nihongo Learning Center in the Philippines"/>
                   <meta name="viewport" content="width=device-width, initial-scale=1">
                    ${
                      assets.client.css

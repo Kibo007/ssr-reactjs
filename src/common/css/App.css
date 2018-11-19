@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Cabin|Domine|Inconsolata');
+
 .App {
   text-align: center;
 }
@@ -15,10 +17,18 @@
 .brand-logo {
   float: left;
 }
+
 .brand-logo-img {
   height: 36px;
 }
 
+.main-navbar {
+  float: right;
+}
+
 .main-navbar > .ant-menu {
   line-height: 60px;
+  font-size: 1.5em;
+  font-family: 'Inconsolata', monospace;
+  text-transform: uppercase;
 }

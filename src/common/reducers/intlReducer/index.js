@@ -5,7 +5,6 @@ import model from './model';
 export default handleActions(
   {
     [ACTION.switchLocale]: (state, action) => {
-      console.log('switchLocale', action.payload);
       return {
         ...state,
         default: {

@@ -1,38 +1,31 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Loadable from 'react-loadable';
-import { Link } from 'react-router-dom';
-import Button from 'antd/lib/button';
 
 const propTypes = {
   reduxAction: PropTypes.object.isRequired,
-  intl: PropTypes.object.isRequired
+  intl: PropTypes.object
+};
+const defaultProps = {
+  intl: {}
 };
 
-const Welcome = Loadable({
-  loader: () => import('./Welcome'),
+const Jumbotron = Loadable({
+  loader: () => import('./Jumbotron'),
   loading: () => null
 });
 
 class Home extends Component {
-  switchLocale = locale => e => {
-    e.preventDefault();
-    console.log(locale);
-    this.props.reduxAction.switchLocale(locale);
-  };
   render() {
-    console.log(this.props.intl);
+    const { intl } = this.props;
     return (
-      <div>
-        <Link to="about">About</Link>
-        <Welcome />
-        <Button onClick={this.switchLocale('en')}>en</Button>
-        <Button onClick={this.switchLocale('jp')}>jp</Button>
-        {this.props.intl.messages.greeting}
-      </div>
+      <main>
+        <Jumbotron data={intl.messages.jumbotron} />
+      </main>
     );
   }
 }
 
 Home.propTypes = propTypes;
+Home.defaultProps = defaultProps;
 export default Home;

@@ -8,6 +8,7 @@ import BrowserRouter from 'react-router-dom/BrowserRouter';
 import Routes from '../common/routes';
 
 const store = configureStore(window.__PRELOADED_STATE__);
+
 const root = document.getElementById('root');
 
 window.main = () => {
