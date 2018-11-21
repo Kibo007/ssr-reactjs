@@ -7,20 +7,8 @@ const enLang = {
         to: '/'
       },
       {
-        title: 'Courses',
-        to: '/courses'
-      },
-      {
-        title: 'Schedule',
-        to: '/schedule'
-      },
-      {
         title: 'About',
         to: '/about'
-      },
-      {
-        title: 'News',
-        to: '/news'
       },
       {
         title: 'Contact',
@@ -28,7 +16,7 @@ const enLang = {
       }
     ],
     jumbotron: {
-      tagline: 'A new language is a new life. Learn Japanese with Saijou',
+      tagline: 'A new language is a new life.',
       enrollLabel: 'Enroll Now'
     }
   }
@@ -50,20 +38,8 @@ export default {
           to: '/'
         },
         {
-          title: 'コース',
-          to: '/courses'
-        },
-        {
-          title: 'スケジュール',
-          to: '/schedule'
-        },
-        {
           title: '約',
           to: '/about'
-        },
-        {
-          title: 'ニュース',
-          to: '/news'
         },
         {
           title: '接触',

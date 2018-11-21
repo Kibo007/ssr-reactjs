@@ -13,9 +13,11 @@ const RadioGroup = Radio.Group;
 const propTypes = {
   menuList: PropTypes.array
 };
+
 const defaultProps = {
   menuList: []
 };
+
 const contextTypes = {
   router: PropTypes.shape({
     history: PropTypes.object.isRequired
@@ -26,7 +28,6 @@ class MyHeaderView extends React.Component {
   constructor(props) {
     super(props);
     const menu = props.location.pathname.replace('/', '');
-    debugger;
     this.state = {
       dafaultMenu: menu || 'home',
       defaultLanguage: props.intl.locale || 'en-US'
@@ -51,11 +52,7 @@ class MyHeaderView extends React.Component {
       <Header className="main-header">
         <Link to="/">
           <div className="brand-logo">
-            <img
-              className="brand-logo-img"
-              src={BrandLogo}
-              alt="Saijou International Logo"
-            />
+            <img className="brand-logo-img" src={BrandLogo} alt="Brand Logo" />
           </div>
         </Link>
         <div className="main-navbar">

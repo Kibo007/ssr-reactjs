@@ -1,19 +1,14 @@
 import React from 'react';
 import { Provider } from 'react-redux';
-import { match, RouterContext } from 'react-router';
+import { match } from 'react-router';
 import { Capture } from 'react-loadable';
 import { getBundles } from 'react-loadable/webpack';
 
 import { StaticRouter } from 'react-router-dom';
 import compression from 'compression';
-// import App from '../common/containers/App';
 import stats from '../../build/react-loadable.json';
-// import LocaleProvider from 'antd/lib/locale-provider';
-// import enUS from 'antd/lib/locale-provider/en_US';
 import configureStore from '../common/store/configureStore';
 import express from 'express';
-// import { fetchCounter } from '../common/api/counter';
-// import qs from 'qs';
 import { renderToString } from 'react-dom/server';
 import serialize from 'serialize-javascript';
 import { loadStateFromSessionStorage } from '../common/helpers';
@@ -43,7 +38,7 @@ server
           const modules = [];
 
           const preloadedState = loadStateFromSessionStorage();
-          // Create a new Redux store instance
+
           const store = configureStore(preloadedState);
           const markup = renderToString(
             <Provider store={store}>
@@ -76,8 +71,8 @@ server
               <head>
                   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
                   <meta charSet='utf-8' />
-                  <title>Saijou International Training Center</title>
-                  <meta name="description" content="Japanese Nihongo Learning Center in the Philippines"/>
+                  <title>SSR Reactjs</title>
+                  <meta name="description" content="Description"/>
                   <meta name="viewport" content="width=device-width, initial-scale=1">
                    ${
                      assets.client.css
