@@ -16,6 +16,7 @@ if (module.hot) {
 }
 
 const port = process.env.PORT || 3000;
+const host = process.env.HOST || 'localhost';
 
 export default Loadable.preloadAll().then(() =>
   express()
@@ -25,6 +26,6 @@ export default Loadable.preloadAll().then(() =>
         console.error(err);
         return;
       }
-      console.log(`> Started on port ${port}`);
+      console.log(`> Started on ${host}:${port}`);
     })
 );
