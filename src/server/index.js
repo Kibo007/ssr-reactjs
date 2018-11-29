@@ -11,7 +11,7 @@ import configureStore from '../common/store/configureStore';
 import express from 'express';
 import { renderToString } from 'react-dom/server';
 import serialize from 'serialize-javascript';
-import { loadStateFromSessionStorage } from '../common/helpers';
+import { loadStateFromSessionStorage } from '../common/helpers/sessionstorage';
 
 import Routes from '../common/routes';
 

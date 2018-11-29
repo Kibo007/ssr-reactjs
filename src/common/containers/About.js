@@ -1,13 +1,17 @@
 import React from 'react';
+import RSOnLoad from '../transitions/OnLoad';
 
 class About extends React.Component {
   render() {
+    const show = true;
     return (
-      <div className="Home">
+      <section className="n-section">
         <div className="Home-header">
-          <h2>About page</h2>
+          <RSOnLoad>
+            <h2>About page</h2>
+          </RSOnLoad>
         </div>
-      </div>
+      </section>
     );
   }
 }

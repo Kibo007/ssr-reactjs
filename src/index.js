@@ -15,8 +15,7 @@ if (module.hot) {
   console.info('✅  Server-side HMR Enabled!');
 }
 
-const port =
-  process.env.PORT || (process.env.NODE_ENV === 'production' ? 7000 : 3000);
+const port = process.env.PORT || 3000;
 
 export default Loadable.preloadAll().then(() =>
   express()
