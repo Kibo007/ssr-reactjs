@@ -46,11 +46,7 @@ You can visit the [demo](http://13.229.183.214:3000)
 
 I have also a Typescript version of this [here](https://github.com/nenjotsu/react-ssr-ts-boilerplate). But I will prioritise this ssr-reactjs before jumping again and continue the typescript version. Will keep you posted. Follow me in github for more updates. Thanks!
 
-# Contributing
-
-Do you want to contribute? Please read the guidelines [here](/docs/contributing.md) or message me @nenjotsu
-
-# Code of Conduct
+# Contributing & Code of Conduct
 
 Please read it [here](/docs/CODE_OF_CONDUCT.md)
 
