@@ -1,6 +1,6 @@
 # SSR React (WIP)
 
-Reactjs with Server Side Rendering Typescript Boilerplate
+Reactjs with Server Side Rendering Boilerplate
 
 # What's inside?
 
