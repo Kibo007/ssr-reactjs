@@ -36,6 +36,15 @@ yarn start
 # Thanks to
 
 - [razzle](https://github.com/jaredpalmer/razzle.git)
+- react-lodable
+
+# Demo
+
+You can visit the [demo](http://13.229.183.214:3000)
+
+# Note
+
+I have also a Typescript version of this [here](https://github.com/nenjotsu/react-ssr-ts-boilerplate). But I will prioritise this ssr-reactjs before jumping again and continue the typescript version. Will keep you posted. Follow me in github for more updates. Thanks!
 
 # Contributing
 
@@ -48,4 +57,3 @@ Please read it [here](/docs/CODE_OF_CONDUCT.md)
 # License
 
 MIT
-
