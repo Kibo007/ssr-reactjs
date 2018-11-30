@@ -7,13 +7,14 @@ Reactjs with Server Side Rendering Typescript Boilerplate
 - [x] ReactJS
 - [x] Server Side Rendering (using Razzle)
 - [x] Redux
+- [x] React Loadable
 - [ ] Redux Observables (rxjs)
-- [ ] React Router
+- [x] React Router
 - [ ] WithRouter
 - [ ] Socket
 - [ ] Auth0
 - [ ] GraphQL
-- [ ] AntDesign
+- [x] AntDesign
 - [ ] Formik
 - [ ] [Advanced Redux Pattern](https://github.com/nenjotsu/advanced-redux-pattern)
 - [ ] Cypress, Mocha, Chai
